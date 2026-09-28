@@ -4,182 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Payments - MyCompany</title>
+    <title>About Us - Payment Info</title>
     <style>
-        /* General Page Styling */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
+            background-color: #f4f4f4;
+            line-height: 1.6;
         }
-        header {
-            background-color: #4CAF50;
-            color: white;
+        header, footer {
+            background: #333;
+            color: #fff;
             padding: 20px 0;
             text-align: center;
         }
-        main {
-            max-width: 900px;
-            margin: 20px auto;
+        .container {
+            width: 80%;
+            margin: auto;
             padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            background: #fff;
         }
-        section {
+        .about, .payment-info {
             margin-bottom: 30px;
         }
-        h1, h2 {
+        .payment-info button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .payment-info button:hover {
+            background-color: #45a049;
+        }
+        h2 {
             color: #333;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        .payment-methods img {
-            max-width: 80px;
-            margin-right: 10px;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #f1f1f1;
-            font-size: 0.9em;
-            color: #555;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>About Payments</h1>
-    </header>
+<header>
+    <h1>About Our Company</h1>
+</header>
 
-    <main>
-        <!-- Company Info Section -->
-        <section>
-            <h2>Our Company</h2>
-            <p>MyCompany has been delivering safe and seamless online payment solutions since 2010. We are committed to providing our customers with secure and reliable payment options for all your transactions.</p>
-        </section>
+<div class="container">
 
-        <!-- Payment Security Section -->
-        <section>
-            <h2>Payment Security</h2>
-            <p>All transactions are encrypted and monitored to ensure your financial safety. We use SSL encryption, secure servers, and comply with PCI DSS standards.</p>
-        </section>
+    <!-- About Section -->
+    <section class="about">
+        <h2>Who We Are</h2>
+        <p>We are a leading provider of online services, dedicated to delivering high-quality solutions to our customers worldwide. Our team is driven by innovation and commitment.</p>
+        <p>Our mission is to make secure and seamless transactions available to everyone, every time.</p>
+    </section>
 
-        <!-- Supported Payment Methods Section -->
-        <section class="payment-methods">
-            <h2>Supported Payment Methods</h2>
-            <ul>
-                <li><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa"> Visa</li>
-                <li><img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg" alt="Mastercard"> Mastercard</li>
-                <li><img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Paypal_logo.svg" alt="PayPal"> PayPal</li>
-                <li><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Rupay_logo.svg" alt="Rupay"> Rupay</li>
-            </ul>
-        </section>
-    </main>
+    <!-- Payment Section -->
+    <section class="payment-info">
+        <h2>Support Us / Make a Payment</h2>
+        <p>You can support our work by making a payment or donation. We use secure payment gateways to ensure your information is safe.</p>
+        <ul>
+            <li>Accepted Payment Methods: Credit Card, Debit Card, PayPal</li>
+            <li>Transaction Security: SSL-encrypted and PCI-compliant</li>
+        </ul>
+        <!-- Sample Payment Button (Integration placeholder) -->
+        <button onclick="alert('Redirecting to secure payment gateway...')">Donate Now</button>
+    </section>
 
-    <footer>
-        &copy; 2026 MyCompany. All rights reserved.
-    </footer>
+</div>
 
-</body>
-</html><!-- Language: HTML -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Payments - MyCompany</title>
-    <style>
-        /* General Page Styling */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        main {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        section {
-            margin-bottom: 30px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        .payment-methods img {
-            max-width: 80px;
-            margin-right: 10px;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #f1f1f1;
-            font-size: 0.9em;
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>About Payments</h1>
-    </header>
-
-    <main>
-        <!-- Company Info Section -->
-        <section>
-            <h2>Our Company</h2>
-            <p>MyCompany has been delivering safe and seamless online payment solutions since 2010. We are committed to providing our customers with secure and reliable payment options for all your transactions.</p>
-        </section>
-
-        <!-- Payment Security Section -->
-        <section>
-            <h2>Payment Security</h2>
-            <p>All transactions are encrypted and monitored to ensure your financial safety. We use SSL encryption, secure servers, and comply with PCI DSS standards.</p>
-        </section>
-
-        <!-- Supported Payment Methods Section -->
-        <section class="payment-methods">
-            <h2>Supported Payment Methods</h2>
-            <ul>
-                <li><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa"> Visa</li>
-                <li><img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg" alt="Mastercard"> Mastercard</li>
-                <li><img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Paypal_logo.svg" alt="PayPal"> PayPal</li>
-                <li><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Rupay_logo.svg" alt="Rupay"> Rupay</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        &copy; 2026 MyCompany. All rights reserved.
-    </footer>
+<footer>
+    <p>&copy; 2026 Our Company. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
